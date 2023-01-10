@@ -1,0 +1,156 @@
+@media (max-width:1173px) {
+    header .img img{
+        display: none;
+    }
+    .mobile_header img{
+        display: block;
+    }
+    main{
+        padding: 0 20px;
+    }
+    .objetivo{
+        padding: 0 20px;
+    }
+    .galeria{
+        padding: 0 20px;
+    }
+    .contato{
+        padding: 0 20px;
+    }
+    header::before{
+        display: none;
+    }
+}
+@media (max-width:900px) {
+    header{
+        padding: 0 20px;
+    }
+    .menu{
+        padding: 0 20px;
+    }
+}
+@media (max-width:871px){
+    main .box .oter .text p{
+        font-size: 12pt;
+        max-width: 100%;
+    }
+}
+@media (max-width:844px){
+    .links_footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+    .title_footer{
+        text-align: center;
+    }
+    .text_footer p{
+        text-align: center;
+    }
+    .links_of_foot{
+        align-items: center;
+    }
+    .coluna_footer li{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media (max-width:826px){
+    .contato{
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:823px){
+    .grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+   .link_a_navbar{
+    display: none;
+   }
+
+}
+@media (max-width:808px){
+    main .box .oter .right i{
+        font-size: 100px;
+        text-align: start;
+    }
+    main .box .oter .right{
+        display: flex;
+        width: 100%;
+        justify-content: start;
+    }
+    main .box .oter{
+        flex-direction: column-reverse;
+    }
+}
+@media (max-width:654px){
+    .init_footer h2{
+        font-size: 13px;
+    }
+}
+@media (max-width:555px){
+    .objetivo{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .contato .form{
+        width: 100%;
+    }
+    .contato .form form{
+        width: 100%;
+    }
+}
+@media (max-width:563px){
+    header .text h1{
+        font-size: 30pt;
+    }
+    header .text p{
+        font-size: 14pt;
+    }
+    header .text .btn input{
+        width: 120px;
+
+    }
+}
+@media (max-width:551px){
+    .menu{
+        flex-direction: row-reverse;
+    }
+    .menu .navigator{
+        width: 60px;
+        height: 60px;
+    }
+    .mobile{
+        display: block;
+        cursor: pointer;
+    }
+    .mobile i{
+        cursor: pointer;
+    }
+    .menu .navigator ul {
+        display: none;
+    }
+}
+@media (max-width:429px){
+    main .box{
+        padding: 18px 2px;
+    }
+}
+@media (max-width:390px){
+    .objetivo .text p {
+        font-size: 12pt;
+    }
+}
+@media (max-width:350px){
+    header{
+        padding: 0 10px;
+    }
+    .menu{
+        padding: 0 10px;
+    }
+    .sidebar .init{
+        padding: 0 10px;
+    }
+}

@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import './assets/css/App.css';
+import './assets/css/Media.css';
+import {BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import NavBar from './pages/layout/NavBar';
+import Home from './pages/home';
+import Footer from './pages/layout/Footer';
+
+const nome = 'AxSpear'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <NavBar nome={nome}/>
+        <Routes>
+          <Route path='/' element={<Home nome={nome}/>}/>
+        </Routes>
+        <Footer nome={nome}/>
+    </Router>
   );
 }
 
