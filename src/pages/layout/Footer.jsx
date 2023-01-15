@@ -9,7 +9,7 @@ function Footer({nome}){
               <ul className="text_footer">
                 <div>
                   <h1 className="title_footer">Sobre</h1>
-                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum, est laboriosam. Officiis sequi mollitia nulla assumenda vel deleniti nostrum quas voluptate corrupti magnam! Laborum sunt accusantium animi soluta delectus ducimus!</p>
+                  <p>Startup Social que viabiliza integrar novos designer e programadores ao mercado de trabalho mais facilmente e facilitar a vida do cliente que está em buscas desses serviço. Tenha acesso a desenvoltura do seus Websites e artes gráficas com mais praticidade e, além disso, gerenciamos o seu Instagram para você.</p>
                 </div>
               </ul>
               <ul className="coluna_footer">

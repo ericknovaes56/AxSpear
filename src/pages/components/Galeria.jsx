@@ -3,10 +3,11 @@ import {motion} from 'framer-motion'
 
 
 import f1 from '../../assets/img/arts/1.jpg'
-import f2 from '../../assets/img/arts/2.jpg'
+import f2 from '../../assets/img/arts/2.png'
 import f3 from '../../assets/img/arts/3.png'
-import f4 from '../../assets/img/arts/4.jpg'
-const imgs = [f1, f2, f3,f4];
+import f4 from '../../assets/img/arts/4.png'
+import f5 from '../../assets/img/arts/5.png'
+const imgs = [f1, f2, f3,f4, f5 ];
 
 function Galeria({nome}){
 
