@@ -9,7 +9,9 @@ function Main({nome}){
                     <div className="text">
                         <h1>{nome}</h1>
                         <p>Somos uma Startup onde ofertamos serviços virtuais criativos, como: Designer Gráfico, Designer Responsivo e Desenvolvimento de Websites. Além disso, auxiliamos no desenrolar da sua empresa ou serviço, sempre atento aos mínimos detalhes e mantendo-o atualizado sobre o mercado de trabalho. </p>
-                        <input type="button" value="Continuar" />
+                        <a href="#objetivo">
+                            <input type="button" value="Continuar" />
+                        </a>
                     </div>
                     <div className="right">
                         <i class='bx bxs-user-account'></i>

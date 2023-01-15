@@ -9,8 +9,12 @@ function Header({nome}){
                 </span>
                 <p>Bem vindo - Criatividade em um só lugar. Obtenha artes gráficas incríveis moldadas a cada detalhe e crie seu Website dos sonhos. Seu pedido é a nossa prioridade!</p>
                 <div className='btn'>
-                    <input type="button" value="Ver Mais" />
-                    <input type="button" value="Contato" />
+                    <a href="#sobre">
+                        <input type="button" value="Ver Mais" />
+                    </a>
+                    <a href="#contato">
+                        <input type="button" value="Contato" />
+                    </a>
                 </div>
             </div>
             <div className="img">

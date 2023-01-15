@@ -3,7 +3,7 @@ import objetivo from '../../assets/img/objetivo.png'
 function Objetivo(){
 
     return (
-        <section className="objetivo">
+        <section className="objetivo" id='objetivo'>
             <div className="img">
                 <img src={objetivo} alt="none" />
             </div>
