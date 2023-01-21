@@ -6,18 +6,34 @@
         display: block;
     }
     main{
-        padding: 0 20px;
+        padding: 50px 20px;
     }
     .objetivo{
-        padding: 0 20px;
+        padding: 50px 20px;
     }
     .galeria{
-        padding: 0 20px;
+        padding: 50px 20px;
     }
     .contato{
-        padding: 0 20px;
+        padding: 50px 20px;
+    }
+    .equipe{
+        padding: 50px 20px;
+    }
+    .whats{
+        padding: 50px 20px;
     }
     header::before{
+        display: none;
+    }
+}
+@media (max-width:1110px){
+    .equipein{
+        overflow-x: scroll;
+        padding: 20px 0;
+        box-sizing: border-box;
+    }
+    .equipein::-webkit-scrollbar{
         display: none;
     }
 }
@@ -28,7 +44,10 @@
     .menu{
         padding: 0 20px;
     }
-}
+    .whats{
+        padding: 50px 20px;
+    }
+}      
 @media (max-width:871px){
     main .box .oter .text p{
         font-size: 12pt;
@@ -131,6 +150,22 @@
     }
     .menu .navigator ul {
         display: none;
+    }
+}
+@media (max-width:478px){
+    .whats .box .text input{
+        width: 100%;
+    }
+    .whats .box .text{
+        width: 100%;
+    }
+    .whats .box h1{
+        font-size: 18px;
+    }
+    .whats .box .text a{
+        text-decoration: none;
+        width: 90%;
+        display: flex;
     }
 }
 @media (max-width:429px){
