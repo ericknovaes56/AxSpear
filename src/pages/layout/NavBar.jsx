@@ -15,6 +15,7 @@ function NavBar({nome}){
                     <li><a href="#"><input type="button" value="Inicio" /></a></li>
                     <li><a href="#sobre"><input type="button" value="Sobre" /></a></li>
                     <li><a href="#contato"><input type="button" value="Contato" /></a></li>
+                    <li><a href="#shop"><input type="button" value="Shop" /></a></li>
                 </ul>
             </nav>
             <div className="title">
@@ -25,6 +26,7 @@ function NavBar({nome}){
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#contato">Contato</a></li>
+                    <li><a href="#shop">Shop</a></li>
                 </ul>
                 <span className="mobile">
                     <label htmlFor="check">

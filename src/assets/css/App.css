@@ -506,79 +506,6 @@ footer{
   height: 300px;
   margin-top: 60px;
 }
-.equipe{
-  display: flex;
- align-items: flex-start;
- justify-content: start;
- flex-direction: column;
- gap: 20px;
- padding: 50px 100px;
- box-sizing: border-box;
-}
-.equipe .title{
-  font-size: 40px;
-  color: #FC1C58;
-  font-weight: bold;
-}
-.equipeBox{
-  width: 320px;
-  height: 390px;
-  background-color: #00000071;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  padding: 30px;
-  box-sizing: border-box;
-  border: 2px solid #FC1C58;
-  gap: 20px;
-  box-shadow: inset 0 0 0px #FC1C58, 0 0 20px #FC1C58;
-  border-radius: 20px;
-  flex: none;
-  transition: transform .3s ease;
-
-}
-.equipeBox:hover{
-  transform: translateY(-10px);
-}
-.equipein{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  gap: 50px;
-  box-sizing: border-box;
-}
-.equipeBox img{
-  width: 130px;
-  height: 130px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #FC1C58;
-}
-.equipeBox span{
-  color: white;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 25px;
-}
-.equipeBox .top{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 15px;
-}
-.equipeBox .abox input{
-  color: white;
-  border-radius: 999px;
-  width: 150px;
-  height: 45px;
-  font-size: 15pt;
-  border: 1px solid #FC1C58;
-  background-color: transparent;
-  cursor: pointer;
-
-}
 .whats{
   display: flex;
   padding: 50px 100px;
@@ -634,4 +561,52 @@ footer{
   font-size: 20px;
   font-weight: bold;
   text-transform: uppercase;
+}
+.produtos{
+  color: white;
+  padding: 30px 100px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 30px;
+}
+.produtos h1{
+  font-size: 40px;
+  color: #FC1C58;
+}
+.boxpro{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #0A0B10;
+  transition: background-color .3s ease;
+  cursor: pointer;
+  width: 185px;
+  min-height: 265px;
+}
+.contentp{
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.boxpro:hover{
+  background-color: #222431;
+}
+.boxpro img{
+  width: 100%;
+  height: 85%;
+  border-radius: 20px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.boxpro span{
+  text-transform: uppercase;
+}
+.aproduto{
+  text-decoration: none;
+  color: white;
 }

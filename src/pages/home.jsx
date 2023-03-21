@@ -1,9 +1,9 @@
 import Contato from "./components/Contato"
-import Equipe from "./components/Equipe"
 import Galeria from "./components/Galeria"
 import Header from "./components/Header"
 import Main from "./components/Main"
 import Objetivo from "./components/Objetivo"
+import Produtos from "./components/Produtos"
 import Whats from "./components/Whats"
 
 function Home({nome}){
@@ -13,9 +13,9 @@ function Home({nome}){
                 <Main nome={nome}/>
                 <Whats nome={nome}/>
                 <Objetivo nome={nome}/>
-                <Equipe name={nome}/>
                 <Galeria name={nome}/>
                 <Contato nome={nome}/>
+                <Produtos nome={nome}/>
         </>
     )
 }
